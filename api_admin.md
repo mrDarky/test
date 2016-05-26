@@ -3,12 +3,14 @@
 
 ###Available requests
 projects
+
 | Resource | GET | POST | UPDATE | DALETE |
 | --- | --- | --- | --- | --- |
 | /projects | return all projects | create new project | - | delete all projects |
 | /projects/id | return project with id | - | update project with id | delete project with id |
 
 builds
+
 | Resource | GET | POST | UPDATE | DALETE |
 | --- | --- | --- | --- | --- |
 | /builds | return all current statuses and info about all builds | run all builds in project | - | - |
