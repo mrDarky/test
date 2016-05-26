@@ -5,7 +5,7 @@
 projects
 
 | Resource | GET | POST | UPDATE | DALETE |
-| --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: |
 | /projects | return all projects | create new project | - | delete all projects |
 | /projects/id | return project with id | - | update project with id | delete project with id |
 
