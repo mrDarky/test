@@ -28,12 +28,15 @@ Empty response body
 
 POST /projects - create new project
 * Input format
+
 json
+
 	{
 		github_link: link,
 		archive: archive_with_sources,
 		config_file: file
 	}
+
 * Additional arguments for requests
 * Output format
 Empty response body
@@ -65,12 +68,15 @@ Empty response body
 
 UPDATE /project/id - update project with identificator = id
 * Input format
+
 json
+
 	{
 		github_link: link,
 		archive: archive_with_updates,
 		config_file: new_file
 	}
+
 * Additional arguments for requests
 * Output format
 Empty response body
