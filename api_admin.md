@@ -2,26 +2,17 @@
 
 
 ###Available requests
+projects
 | Resource | GET | POST | UPDATE | DALETE |
 | --- | --- | --- | --- | --- |
 | /projects | return all projects | create new project | - | delete all projects |
-GET /projects - return all projects
-POST /projects - create new project
-DELETE /projects - delete all projects
+| /projects/id | return project with id | - | update project with id | delete project with id |
 
-GET /projects/id - return project with identificator = id
-DELETE /projects/id - delete project with identificator = id
-UPDATE /project/id - update project with identificator = id
-
-
-GET /builds - return all current statuses and info about all builds
-POST /builds - run all builds in project
-
-GET /builds/id - return current status and info build with identificator = id
-POST /builds/id - run build with identificator = id
-
-
-
+builds
+| Resource | GET | POST | UPDATE | DALETE |
+| --- | --- | --- | --- | --- |
+| /builds | return all current statuses and info about all builds | run all builds in project | - | - |
+| /builds/id | return current status and info build with id | run build with id | - | - |
 
 ###Specification
 GET /projects - return all projects
